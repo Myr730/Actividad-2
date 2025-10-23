@@ -140,3 +140,4 @@ def bwt_compression_pipeline(text, base_filename):
     # Verificar reversibilidad
     recovered = invert_bwt(bwt)
     metrics['reversible'] = (text == recovered)
+  
